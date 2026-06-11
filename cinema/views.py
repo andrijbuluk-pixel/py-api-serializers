@@ -57,7 +57,6 @@ class MovieSessionViewSet(viewsets.ModelViewSet):
         "cinema_hall",
     )
 
-
     def get_serializer_class(self) -> type[
         Serializer
     ]:
